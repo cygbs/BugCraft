@@ -23,6 +23,8 @@ features:
 
 footer: 版权所无，不保留所有权利。
 ---
-「Minecraft」以及「我的世界」为 Mojang AB. 的商标，「BugCraft」和本网站与 Mojang 以及 Microsoft **没有**任何从属关系。「BugCraft」**不是** Minecraft 官方的服务器。有关服务器的更多信息，请参照「[关于](/about.html)」页面。
+「Minecraft」以及「我的世界」为 Mojang AB. 的商标，「BugCraft」和本网站与 Mojang 以及 Microsoft **没有**任何从属关系。「BugCraft」**不是** Minecraft 官方的服务器。
+
+有关服务器的更多信息，请参照「[关于](/about.html)」页面。
 
 [萌 ICP 备 20246851 号](https://icp.gov.moe/?keyword=bugcraft.org)

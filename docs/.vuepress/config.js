@@ -31,8 +31,12 @@ export default defineUserConfig({
         link: '/timeline/',
       },
       {
+        text: '友情链接',
+        link: '/links',
+      },
+      {
         text: '关于',
-        link: '/about.html',
+        link: '/about',
       },
     ],
   }),

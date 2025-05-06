@@ -1,47 +1,29 @@
-# Get Started
+# 快速开始
 
-This is a normal page, which contains VuePress basics.
+由于这是一个 Java 版服务器且不兼容基岩版，所以无论您使用何种设备、何种系统都需要安装 `Minecraft: Java Edition`。对此带来的不便，我们非常抱歉。
 
-## Pages
+在开始之前，请您确认：
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+- 您已经拥有正版 Minecraft
+- 您有设备可以启动 Minecraft
+- 您知道在哪里寻求帮助
 
-See [routing][] for more details.
+如果您不想阅读详细步骤，并且您已经打开游戏，请连接 `bugcraft.org`。
 
-## Content
+## 安装游戏
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+请在「[Minecraft 官方网站](https://www.minecraft.net/zh-hans/download)」下载启动器。
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+如果您用不习惯这个，也可以使用 [HMCL](https://hmcl.huangyuhui.net/download/)、[PCL2-CE](https://github.com/PCL-Community/PCL2-CE/releases) 等启动器，总之，按照您的喜好来选择即可。如果您使用 Android 设备，推荐使用「[Fold Craft Launcher](https://www.minecraft.net/zh-hans/download)」。
 
-## Configuration
+在启动器中登入您的微软账户，然后下载 `1.21.4` 版（推荐）或者其它正式版本（**最低 `1.7.2` 版**），高于推荐版本也是支持的。
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+## 启动游戏
 
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
+在您的启动器中有一个「启动按钮」，按下它，等待一会，您就会进入主界面了。
 
-Meanwhile, you can also add configuration per page with [frontmatter][].
+## 加入游戏
 
-## Layouts and customization
+在主界面中，点按多人游戏，然后添加服务器，名称为 `BugCraft` 或者其它您喜欢的名称，地址为 `bugcraft.org`，最后加入刚添加好的服务器，这就行了。
 
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
-
+如果您还需要帮助，您可以在「关于」页面和我们交流。

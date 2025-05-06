@@ -1,34 +1,28 @@
 ---
 home: true
 title: 主页
-heroImage: https://vuejs.press/images/hero.png
+heroImage: /upload/favicon.svg
 actions:
-  - text: Get Started
+  - text: 快速开始
     link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
-
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 版本兼容
+    details: 我们的服务器兼容 1.7.2 及以上版本。
+  - title: 基于 1.21.4
+    details: 服务器基于 1.21.4 Canvas 服务端。
+  - title: 正版验证
+    details: 服务器需要正版验证。
+  - title: 粘液科技
+    details: 粘液科技汉化版，无扩展。
+  - title: 氛围友好
+    details: 玩家们都是很友好的呢。
+  - title: 获得支持
+    details: 您可以在我们的交流群中获得支持。
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: 版权所无，不保留所有权利。
 ---
+有关服务器的更多信息，请参照「[关于](/about.html)」页面。
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
-
+[萌 ICP 备 20246851 号](https://icp.gov.moe/?keyword=bugcraft.org)

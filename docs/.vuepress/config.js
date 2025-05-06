@@ -4,31 +4,35 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
   title: 'BugCraft',
-  description: 'My first VuePress Site',
+  description: '一个简单的 Minecraft 服务器。',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/upload/favicon.png',
 
     navbar: [
       '/',
       {
-        text: 'Article',
+        text: '文章',
         link: '/article/',
       },
       {
-        text: 'Category',
+        text: '分类',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
+      },
+      {
+        text: '关于',
+        link: '/about.html',
       },
     ],
   }),
@@ -136,6 +140,6 @@ export default defineUserConfig({
       hotReload: true,
     }),
   ],
-
+  
   bundler: viteBundler(),
 })

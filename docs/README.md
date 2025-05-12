@@ -23,8 +23,18 @@ features:
 
 footer: 版权所无，不保留所有权利。
 ---
+
+# 道歉声明
+在此就管理员辱骂玩家的事情对 BugCraft 的玩家道歉：
+
+对不起！
+
+就此事已终止和其它服务器的合作并移除该管理员，此声明将在此展示一个月，日后也可在 Git 提交记录查询。
+
+### 声明
 「Minecraft」以及「我的世界」为 Mojang AB. 的商标，「BugCraft」和本网站与 Mojang 以及 Microsoft **没有**任何从属关系。「BugCraft」**不是** Minecraft 官方的服务器。
 
 有关服务器的更多信息，请参照「[关于](/about.html)」页面。
 
 [萌 ICP 备 20246851 号](https://icp.gov.moe/?keyword=bugcraft.org)
+

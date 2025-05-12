@@ -19,3 +19,7 @@
 
 ## [MCJPG](https://mcjpg.org/)
 一个致力于Minecraft技术交流和服务器宣传的组织
+
+## [云启之域 RCN](https://rcn.zyghit.cn/)
+自 2019 年至今，薪火相传，历史悠久。1.8.8-1.21.1 公益离线群组服务器。
+

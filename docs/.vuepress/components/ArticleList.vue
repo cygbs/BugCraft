@@ -12,7 +12,7 @@ defineProps({
 
 <template>
   <div class="article-wrapper">
-    <div v-if="!items.length">Nothing in here.</div>
+    <div v-if="!items.length">这地方什么东西都没有。</div>
 
     <article
       v-for="{ info, path } in items"
@@ -30,17 +30,17 @@ defineProps({
       <hr />
 
       <div class="article-info">
-        <span v-if="info.author" class="author">Author: {{ info.author }}</span>
+        <span v-if="info.author" class="author">作者：{{ info.author }}</span>
 
         <span v-if="info.date && !isTimeline" class="date"
-          >Date: {{ new Date(info.date).toLocaleDateString() }}</span
+          >日期：{{ new Date(info.date).toLocaleDateString() }}</span
         >
 
         <span v-if="info.category" class="category"
-          >Category: {{ info.category.join(', ') }}</span
+          >分类：{{ info.category.join(', ') }}</span
         >
 
-        <span v-if="info.tag" class="tag">Tag: {{ info.tag.join(', ') }}</span>
+        <span v-if="info.tag" class="tag">标签：{{ info.tag.join(', ') }}</span>
       </div>
 
       <div v-if="info.excerpt" class="excerpt" v-html="info.excerpt" />

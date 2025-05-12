@@ -74,11 +74,11 @@ export default defineUserConfig({
           layout: 'Category',
           itemLayout: 'Category',
           frontmatter: () => ({
-            title: 'Categories',
+            title: '分类',
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Category ${name}`,
+            title: `分类：${name}`,
             sidebar: false,
           }),
         },
@@ -88,11 +88,11 @@ export default defineUserConfig({
           layout: 'Tag',
           itemLayout: 'Tag',
           frontmatter: () => ({
-            title: 'Tags',
+            title: '标签',
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Tag ${name}`,
+            title: `标签：${name}`,
             sidebar: false,
           }),
         },
@@ -105,7 +105,7 @@ export default defineUserConfig({
           filter: (page) => !page.frontmatter.archive,
           layout: 'Article',
           frontmatter: () => ({
-            title: 'Articles',
+            title: '文章',
             sidebar: false,
           }),
           // Sort pages with time and sticky
@@ -136,7 +136,7 @@ export default defineUserConfig({
             new Date(pageA.frontmatter.date).getTime(),
           layout: 'Timeline',
           frontmatter: () => ({
-            title: 'Timeline',
+            title: '时间线',
             sidebar: false,
           }),
         },

@@ -26,6 +26,9 @@ importers:
       vuepress:
         specifier: 2.0.0-rc.20
         version: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.15.11)(sass-embedded@1.87.0))(vue@3.5.13)
+      vuepress-plugin-full-text-search2:
+        specifier: ^0.5.1
+        version: 0.5.1(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.15.11)(sass-embedded@1.87.0))(vue@3.5.13))
 
 packages:
 
@@ -1400,6 +1403,11 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+
+  vuepress-plugin-full-text-search2@0.5.1:
+    resolution: {integrity: sha512-snjEFPRe5J3Rj5nd/IfiYVObHCmz9bBVs/pn+urQIcTnS1naNEabthcGr+e49gbVxbJy4dwB/kZfwJnCSYLWfg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.8
 
   vuepress@2.0.0-rc.20:
     resolution: {integrity: sha512-rAGD+/OBqBQb/qnKdoMuRPkv0Pcwu+OWrs0dW5vqJpswsa9pArrCwsfQKKGpxZI24BkutxIwnUSgUP5LBAtgIw==}
@@ -2824,6 +2832,19 @@ snapshots:
       '@vue/server-renderer': 3.5.13(vue@3.5.13)
       '@vue/shared': 3.5.13
 
+  vuepress-plugin-full-text-search2@0.5.1(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.15.11)(sass-embedded@1.87.0))(vue@3.5.13)):
+    dependencies:
+      '@vuepress/client': 2.0.0-rc.20
+      '@vuepress/core': 2.0.0-rc.20
+      '@vuepress/utils': 2.0.0-rc.20
+      chokidar: 3.6.0
+      htmlparser2: 9.1.0
+      vue: 3.5.13
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.15.11)(sass-embedded@1.87.0))(vue@3.5.13)
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.15.11)(sass-embedded@1.87.0))(vue@3.5.13):
     dependencies:
       '@vuepress/cli': 2.0.0-rc.20
@@ -2850,4 +2871,3 @@ snapshots:
       isexe: 2.0.0
 
   yoctocolors@2.1.1: {}
-

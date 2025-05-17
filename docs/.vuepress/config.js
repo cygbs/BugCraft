@@ -2,6 +2,7 @@ import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import fullTextSearchPlugin from "vuepress-plugin-full-text-search2";
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -42,6 +43,13 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    fullTextSearchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+      },
+    }),
     blogPlugin({
       // Only files under posts are articles
       filter: ({ filePathRelative }) =>

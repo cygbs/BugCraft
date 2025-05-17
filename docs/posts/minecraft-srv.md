@@ -5,6 +5,7 @@ category:
   - Minecraft
 tag:
   - Minecraft
+  - Server
 sticky: 1
 ---
 
